@@ -16,11 +16,17 @@ const dmMono = DM_Mono({
   display: 'swap',
 });
 
-export const metadata: Metadata = {
-  title: 'Brag Document Dashboard',
-  description:
-    'A personal performance dashboard showcasing achievements, skills, and impact.',
-};
+import { fetchData } from '@/lib/fetchData';
+
+export async function generateMetadata(): Promise<Metadata> {
+  const data = await fetchData();
+  const description = `${data.role}${data.team ? ` | ${data.team}` : ''}`;
+
+  return {
+    title: data.name,
+    description: description,
+  };
+}
 
 export default function RootLayout({
   children,
