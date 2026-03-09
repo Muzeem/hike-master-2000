@@ -2,7 +2,13 @@
 
 export type ImpactLevel = 'high' | 'medium' | 'low';
 export type MiscStatus = 'in-progress' | 'upcoming' | 'planned' | 'completed';
-export type MiscType = 'learning' | 'upcoming' | 'goal' | 'personal' | 'other';
+export type MiscType =
+  | 'learning'
+  | 'upcoming'
+  | 'goal'
+  | 'personal'
+  | 'achievement'
+  | 'other';
 export type ChartType = 'line' | 'bar' | 'before-after';
 
 export interface CodeActivity {
