@@ -142,9 +142,9 @@ export const BRAG_DATA: BragData = {
   years: ['2024', '2026'],
   metrics: {
     projectsShipped: 10,
-    prsReviewed: '—',
-    prsMerged: '—',
-    techDiscussions: '—',
+    experimentsRun: '30+ A/B tests',
+    revenueImpact: '$250K+ incremental revenue impact',
+    entrepreneurshipAndCerts: '2 ventures • 5 certifications',
   },
   achievements: [
     {
@@ -155,7 +155,7 @@ export const BRAG_DATA: BragData = {
       date: '2024-11',
       metric: 'CTR 0.8% → 1.8%, ~7x ad revenue',
       description:
-        'Owned monetization experiments for 90+ HTML5 titles on MSN Games. Designed A/B tests and AI-assisted creative optimization that lifted CTR from 0.8% to 1.8% and grew daily ad revenue from ~$100/day to ~$700/day by partnering with ad-ops, design, and engineering.',
+        'Owned monetization experiments for 90+ HTML5 titles on MSN Games, using A/B tests and AI-assisted creative optimization to lift CTR from 0.8% to 1.8% and grow daily ad revenue from ~$100 to ~$700.',
       tickets: [],
       prs: [],
       chart: {
@@ -191,7 +191,7 @@ export const BRAG_DATA: BragData = {
       date: '2025-01',
       metric: '2 new recurring revenue lines',
       description:
-        'Designed and launched Lifetime Purchase and Monthly Subscription models for HTML5 games. Defined pricing, eligibility, and success metrics; partnered with finance and engineering to validate impact and build a predictable base of recurring revenue.',
+        'Designed and launched Lifetime Purchase and Monthly Subscription models for HTML5 games, defining pricing, eligibility, and success metrics to add two predictable recurring revenue streams.',
       tickets: [],
       prs: [],
       chart: {
@@ -215,7 +215,7 @@ export const BRAG_DATA: BragData = {
       date: '2024-06',
       metric: '4.4x DAU growth',
       description:
-        'Drove product-led growth for a SaaS student housing platform, helping DAU grow from ~18K to 80K. Improved onboarding flows, made key features self-serve, and partnered with customer success to prioritize changes that unlocked adoption at scale.',
+        'Led product-led growth for a SaaS student housing platform, improving onboarding and self-serve flows to grow DAU from ~18K to 80K.',
       tickets: [],
       prs: [],
       chart: {
@@ -239,7 +239,7 @@ export const BRAG_DATA: BragData = {
       date: '2023-10',
       metric: 'Paperless approvals for 10K+ users',
       description:
-        'Replaced a paper-based leave process with an in-app digital flow at SpaceBasic. Students raised requests in-app, while parents and faculty approved in real time; integrated authorization logic with on-ground barrier hardware so only approved students could exit campus.',
+        'Replaced a paper-based leave process with a fully digital flow, enabling real-time approvals for 10K+ users and integrating with physical access control hardware.',
       tickets: [],
       prs: [],
       chart: {
@@ -262,7 +262,7 @@ export const BRAG_DATA: BragData = {
       date: '2025-02',
       metric: 'Higher rankings & organic clicks',
       description:
-        'Used Google Search Console and analytics to identify ranking gaps, then partnered with content and marketing on 400+ blog publications for Gamezop. Improved keyword positions, organic traffic, and overall discoverability of the games catalog.',
+        'Used Google Search Console and analytics to prioritize SEO opportunities, then partnered with content and marketing on 400+ blog posts to lift keyword rankings and organic traffic for the games catalog.',
       tickets: [],
       prs: [],
       chart: {
@@ -285,6 +285,8 @@ export const BRAG_DATA: BragData = {
       category: 'improved',
     },
     { name: 'Experimentation & A/B Testing', level: 88, category: 'improved' },
+    { name: 'Feature Prioritization', level: 86, category: 'improved' },
+    { name: 'Root Cause Analysis (RCA)', level: 84, category: 'improved' },
     { name: 'Monetization & Pricing', level: 85, category: 'improved' },
     { name: 'User Research & Discovery', level: 80, category: 'improved' },
     { name: 'Stakeholder Management', level: 82, category: 'improved' },
@@ -295,6 +297,11 @@ export const BRAG_DATA: BragData = {
       category: 'improved',
     },
     { name: 'Funnel & Cohort Analysis', level: 80, category: 'improved' },
+    {
+      name: 'Tooling: Metabase, Kibana, Google Ad Manager, Figma, Confluence, Jira, Sheets',
+      level: 80,
+      category: 'improved',
+    },
     { name: 'Figma / Prototyping', level: 70, category: 'improved' },
     { name: 'HTML5 Games & Game Design', level: 72, category: 'new' },
   ],
@@ -332,9 +339,6 @@ export const BRAG_DATA: BragData = {
       description: 'Delivered ~7x uplift in MSN Games ad revenue',
       color: 'var(--primary)',
       earnedOn: '2024-11',
-      imageUrl:
-        'https://img.shields.io/badge/Revenue-Uplift-success?style=for-the-badge&logo=google-ads&logoColor=white',
-      viewUrl: 'https://example.com/badges/revenue-uplift',
     },
     {
       id: 'b2',
@@ -343,9 +347,6 @@ export const BRAG_DATA: BragData = {
       description: 'Helped scale a SaaS platform from 18K to 80K DAU',
       color: 'var(--chart-2)',
       earnedOn: '2024-06',
-      imageUrl:
-        'https://img.shields.io/badge/Platform-Scale-blueviolet?style=for-the-badge&logo=saas&logoColor=white',
-      viewUrl: 'https://example.com/badges/platform-scale',
     },
     {
       id: 'b3',
@@ -354,9 +355,6 @@ export const BRAG_DATA: BragData = {
       description: 'Ran high-impact A/B tests across creatives and funnels',
       color: 'var(--chart-3)',
       earnedOn: '2024-10',
-      imageUrl:
-        'https://img.shields.io/badge/Experimentation-Lead-orange?style=for-the-badge&logo=testing-library&logoColor=white',
-      viewUrl: 'https://example.com/badges/experimentation-lead',
     },
     {
       id: 'b4',
@@ -365,9 +363,6 @@ export const BRAG_DATA: BragData = {
       description: 'Led SEO initiatives powering organic game discovery',
       color: 'var(--chart-4)',
       earnedOn: '2025-02',
-      imageUrl:
-        'https://img.shields.io/badge/SEO-Growth-green?style=for-the-badge&logo=google-search-console&logoColor=white',
-      viewUrl: 'https://example.com/badges/seo-growth',
     },
     {
       id: 'b5',
@@ -377,12 +372,40 @@ export const BRAG_DATA: BragData = {
         'Ranked 1st out of 12 teams in a 12‑week product incubation program',
       color: 'var(--chart-5)',
       earnedOn: '2020-03',
-      imageUrl:
-        'https://img.shields.io/badge/Most-Promising-Product-gold?style=for-the-badge&logo=product-hunt&logoColor=white',
-      viewUrl: 'https://example.com/badges/most-promising-product',
     },
   ],
-  certifications: [],
+  certifications: [
+    {
+      id: 'c1',
+      title: 'Product Design and Manufacturing',
+      issuer: 'IIT Kanpur',
+      icon: '🛠️',
+    },
+    {
+      id: 'c2',
+      title: 'Consumer Behavior',
+      issuer: 'IIT Kharagpur',
+      icon: '🧠',
+    },
+    {
+      id: 'c3',
+      title: 'Product Management',
+      issuer: 'Relevel, Unacademy',
+      icon: '📊',
+    },
+    {
+      id: 'c4',
+      title: 'Product Management: Building Roadmaps',
+      issuer: 'LinkedIn Learning',
+      icon: '🗺️',
+    },
+    {
+      id: 'c5',
+      title: 'Product Management Fellowship',
+      issuer: 'Next Leap',
+      icon: '🎓',
+    },
+  ],
   misc: [
     {
       id: 'm1',
@@ -428,6 +451,24 @@ export const BRAG_DATA: BragData = {
       progress: 100,
       note: 'Wrote technical and product reflections every day for a month to sharpen storytelling and decision logs.',
       icon: '✍️',
+    },
+    {
+      id: 'm6',
+      type: 'achievement',
+      title: 'Runner-up — Aerial Tramline Prototype Competition',
+      status: 'completed',
+      progress: 100,
+      note: 'Designed and built a high-load-capacity aerial tramline prototype; ranked second among 12 teams.',
+      icon: '🚡',
+    },
+    {
+      id: 'm7',
+      type: 'personal',
+      title: 'Formies — Custom Candles & Figurines',
+      status: 'completed',
+      progress: 100,
+      note: 'Founded a DTC brand using DLP 3D printing to create unique molds; produced and sold ~₹20,000 worth of scented candles and resin figurines via Shopify and Amazon.',
+      icon: '🕯️',
     },
   ],
   codeActivity: (() => {

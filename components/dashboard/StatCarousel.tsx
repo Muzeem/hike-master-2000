@@ -71,21 +71,15 @@ export function StatCarousel({
       accent: 'var(--chart-1)',
     },
     {
-      icon: '🔍',
-      label: 'PRs Reviewed',
-      value: metrics.prsReviewed,
+      icon: '🧪',
+      label: 'A/B Tests Run',
+      value: metrics.experimentsRun,
       accent: 'var(--chart-2)',
     },
     {
-      icon: '✅',
-      label: 'PRs Merged',
-      value: metrics.prsMerged,
-      accent: 'var(--chart-2)',
-    },
-    {
-      icon: '💬',
-      label: 'Tech Discussions',
-      value: metrics.techDiscussions,
+      icon: '📈',
+      label: 'Incremental Revenue Impact',
+      value: metrics.revenueImpact,
       accent: 'var(--chart-3)',
     },
     {

@@ -11,9 +11,13 @@ const STAT_ITEMS: Array<{
   icon: string;
 }> = [
   { key: 'projectsShipped', label: 'Projects Shipped', icon: '🚀' },
-  { key: 'prsReviewed', label: 'PRs Reviewed', icon: '🔍' },
-  { key: 'prsMerged', label: 'PRs Merged', icon: '✅' },
-  { key: 'techDiscussions', label: 'Tech Discussions', icon: '💬' },
+  { key: 'experimentsRun', label: 'A/B Tests Run', icon: '🧪' },
+  { key: 'revenueImpact', label: 'Incremental Revenue Impact', icon: '📈' },
+  {
+    key: 'entrepreneurshipAndCerts',
+    label: 'Entrepreneurship & Certifications',
+    icon: '🎓',
+  },
 ];
 
 export function StatCards({ metrics }: StatCardsProps) {
